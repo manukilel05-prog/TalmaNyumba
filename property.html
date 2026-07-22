@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Property — Talma Homes</title>
+<meta name="description" content="Property details from Talma Homes, Nairobi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">Talma</span>
+      <span class="logo-sub">HOMES</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="listings.html" aria-current="page">Listings</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a class="btn btn-brass js-wa-generic" href="#" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <div class="mobile-menu__top">
+    <span class="logo-mark">Talma</span>
+    <button class="mobile-menu__close" aria-label="Close menu">&times;</button>
+  </div>
+  <a href="index.html">Home</a>
+  <a href="listings.html">Listings</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="#" class="js-wa-generic" target="_blank" rel="noopener">Chat on WhatsApp</a>
+</div>
+
+<main>
+
+  <section class="section--tight" style="padding-bottom:0;padding-top:2rem;">
+    <div class="container">
+      <div class="breadcrumb breadcrumb--light">
+        <a href="index.html">Home</a> / <a href="listings.html">Listings</a> / <span id="breadcrumb-title">Property</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="gallery" id="property-detail">
+        <div class="gallery__main frame frame--always">
+          <span class="corner corner--tl"></span><span class="corner corner--tr"></span><span class="corner corner--bl"></span><span class="corner corner--br"></span>
+          <img id="gallery-main-img" src="" alt="">
+        </div>
+        <div class="gallery__thumbs" id="gallery-thumbs"></div>
+      </div>
+
+      <div class="detail-layout">
+        <div class="detail-main">
+          <div class="detail-header">
+            <span class="detail-header__location" id="detail-location"></span>
+            <h1 id="detail-title"></h1>
+            <p class="detail-header__price" id="detail-price"></p>
+          </div>
+
+          <div class="title-block" id="detail-specs"></div>
+
+          <p class="detail-description" id="detail-description"></p>
+
+          <h3>Features</h3>
+          <ul class="feature-list" id="detail-features"></ul>
+        </div>
+
+        <aside class="agent-card">
+          <div class="agent-card__photo">
+            <img src="https://picsum.photos/seed/agent-wanjiru/300/300" alt="Wanjiru Kamau, Principal Agent">
+          </div>
+          <h3 class="agent-card__name">Wanjiru Kamau</h3>
+          <span class="agent-card__role">Principal Agent</span>
+          <p style="margin-top:1rem;font-size:.92rem;">Ask about viewings, pricing, or the title status of this property — I reply personally.</p>
+          <a href="#" class="btn btn-whatsapp btn-block js-wa-property" target="_blank" rel="noopener">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M16.02 3C9.4 3 4 8.4 4 15.02c0 2.34.66 4.53 1.8 6.4L4 29l7.76-1.76a11.9 11.9 0 0 0 4.26.78h.01c6.62 0 12.02-5.4 12.02-12.02C28.05 8.4 22.65 3 16.02 3zm0 21.86c-1.5 0-2.96-.4-4.24-1.15l-.3-.18-4.6 1.04 1.06-4.48-.2-.31a9.83 9.83 0 0 1-1.53-5.26c0-5.46 4.45-9.9 9.92-9.9 2.65 0 5.14 1.03 7.01 2.9a9.85 9.85 0 0 1 2.9 6.99c0 5.47-4.45 9.9-9.92 9.9zm5.44-7.42c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.65-2.05-.17-.3-.02-.46.13-.6.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.79.37s-1.04 1.02-1.04 2.48 1.07 2.87 1.22 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
+            Ask about this property
+          </a>
+          <p class="agent-card__note">Usually replies within the hour, Mon–Sat</p>
+        </aside>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">You may also like</span>
+        <h2>Similar properties</h2>
+      </div>
+      <div class="property-grid" id="similar-grid"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="logo-mark">Talma</span>
+      <p>Nairobi real estate, shown by appointment. We list fewer homes so we can know each one properly.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="listings.html">Listings</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get in touch</h4>
+      <ul>
+        <li class="js-phone-display">+254 700 000 000</li>
+        <li class="js-email-display">hello@talmahomes.co.ke</li>
+        <li>Westlands, Nairobi</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Office hours</h4>
+      <ul>
+        <li>Mon – Fri, 8:30 – 18:00</li>
+        <li>Saturday, 9:00 – 14:00</li>
+        <li>Sunday, by appointment</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Talma Homes. All rights reserved.</span>
+    <span>Built for people who'd rather message than call.</span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
