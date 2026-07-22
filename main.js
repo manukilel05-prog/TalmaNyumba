@@ -134,7 +134,7 @@ function initListings() {
       const [minStr, maxStr] = priceSel.value.split('-');
       const min = Number(minStr);
       const max = maxStr === 'plus' ? Infinity : Number(maxStr);
-      list = list.filter(p => p.price >= min && p.price <= max);
+      list = list.filter(p => p.price == null || (p.price >= min && p.price <= max));
     }
     renderGrid(grid, list);
     countEl.textContent = `${list.length} ${list.length === 1 ? 'property' : 'properties'}`;

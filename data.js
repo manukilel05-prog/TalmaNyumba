@@ -67,6 +67,43 @@ const PROPERTIES = [
     ]
   },
   {
+    id: 8,
+    title: "Kileleshwa 2-Bedroom Apartment",
+    area: "Kileleshwa",
+    type: "Apartment",
+    status: "For Sale",
+    price: null,
+    priceLabel: "Price on Request",
+    beds: 2,
+    baths: 2,
+    sqft: null,
+    lot: "—",
+    yearBuilt: null,
+    ref: "TH-1218",
+    summary: "A 2-bedroom apartment in a Kileleshwa high-rise with a shared pool and gym.",
+    description: "A two-bedroom apartment in a high-rise development in Kileleshwa, with a shared swimming pool and fully equipped gym within the compound. The open-plan living area opens onto a private balcony, and the kitchen is fitted with granite worktops and gloss-finish cabinetry. Both bedrooms have fitted wardrobes, with an en-suite bathroom off the master.",
+    features: [
+      "Shared swimming pool",
+      "Fully equipped gym",
+      "Granite kitchen worktops",
+      "En-suite master bedroom",
+      "Fitted wardrobes",
+      "Private balcony"
+    ],
+    images: [
+      "images/kileleshwa-apartment-01.jpg",
+      "images/kileleshwa-apartment-02.jpg",
+      "images/kileleshwa-apartment-03.jpg",
+      "images/kileleshwa-apartment-04.jpg",
+      "images/kileleshwa-apartment-05.jpg",
+      "images/kileleshwa-apartment-06.jpg",
+      "images/kileleshwa-apartment-07.jpg",
+      "images/kileleshwa-apartment-08.jpg",
+      "images/kileleshwa-apartment-09.jpg",
+      "images/kileleshwa-apartment-10.jpg"
+    ]
+  },
+  {
     id: 1,
     title: "The Karen Garden House",
     area: "Karen",
