@@ -102,8 +102,8 @@ const PROPERTIES = [
       "images/kileleshwa-apartment-09.jpg",
       "images/kileleshwa-apartment-10.jpg"
     ]
-  },
-
+  }
+];
 
 // TEAM — shown on the About page.
 const TEAM = [
@@ -111,6 +111,7 @@ const TEAM = [
     name: "Wesley Mataara",
     role: "Founder & Principal Agent",
     phone: "254700000001",
+    photo: "https://picsum.photos/seed/agent-wanjiru/500/650"
   },
   {
     name: "Benedict Kirui",
